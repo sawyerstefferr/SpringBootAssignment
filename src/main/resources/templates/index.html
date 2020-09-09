@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<div th:insert="fragments/_head :: head"></div>
+<body>
+    <div th:insert="fragments/_header :: header"></div>
+    <div id="wrapper">
+        <h1>3 Steps to Help Acid Reflux and Indigestion</h1>
+        <p>Acid reflux is becoming more and more common in Americans, and doctors like to give you medication to reduce acid in your body</p>
+        <hr>
+        <p>Most people have these symptoms because we have tension in our bellies from holding them in and it doesn't allow food to get to the bottom of your stomach</p>
+        <hr>
+        <p>You might not get instant relief by doing these steps but you just have to get in the habit of doing them regularly</p>
+        <hr>
+        <p>Find out more by clicking the links above or watch the video below that explains it way better than I can. I don't really know what I'm talking about but this stuff really helps</p>
+        <hr>
+        <p>
+            <b><a th:href="@{/video}" style="text-decoration:none;color:#016670;">VIDEO LINK</a></b>
+        </p>
+        <hr>
+        <img th:src="@{/images/acid.png}"><br>
+        <a href="https://dentmd.com/acid-reflux/">Image Source</a>
+    </div>
+    <div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

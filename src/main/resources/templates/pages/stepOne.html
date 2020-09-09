@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<div th:insert="fragments/_head :: head"></div>
+<body>
+
+    <div th:insert="fragments/_header :: header"></div>
+    <div id="wrapper">
+        <h1>Change Your Breathing Habits</h1>
+        <p>One Way to improve your digestion is to take slower and deeper breaths</p>
+        <hr>
+        <p>When you breathe out you can also linger on that breath a little bit longer than usual to help digest</p>
+        <hr>
+        <p>Getting in the habit of extending your belly when you breathe in instead of breathing with your chest also helps if you're a chest breather like me</p>
+        <hr>
+        <img th:src="@{/images/bellybreathing.png}"><br>
+        <a href="https://childreninspiredbyyoga.com/blog/2018/03/belly-breathing-anxiety/">Image Source</a>
+    </div>
+    <div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

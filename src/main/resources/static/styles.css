@@ -1,0 +1,44 @@
+body{
+    font-size:1.2rem;
+    font-family: 'Asap', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Vidaloka', serif;
+}
+header,footer {
+    display: block;
+    color: #140224;
+    text-align: center;
+    padding: 10px 14px;
+    background-color: #67ab82;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right:1px solid darkslategray;
+}
+
+li a {
+    display: block;
+    color: #2d2929;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h1{
+    margin-left:20px;
+}
+#wrapper{
+    padding:15px;
+    background-color: #dedede;
+    min-height:600px;
+}
+img{
+    width:400px;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<div th:insert="fragments/_head :: head"></div>
+<body>
+    <div th:insert="fragments/_header :: header"></div>
+    <div id="wrapper">
+        <h1>Other Tips</h1>
+        <p>Arching your back and doing stretches is helpful but make sure to release any tension on your stomach</p>
+        <hr>
+        <p>Putting a little bit of pressure a couple inches below your left ribcage where it ends is something else you can do along with these exercises</p>
+        <hr>
+        <img th:src="@{/images/torso.jpg}"><br>
+        <a href="https://easydrawingart.com/how-to-draw-a-torso/">Image Source</a>
+    </div>
+    <div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
